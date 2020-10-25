@@ -1,0 +1,25 @@
+* {
+	font-family: Times New Roman;
+}
+
+h1{
+	background: black; 
+	color: white;
+	position: relative;
+}
+
+button{
+	font-size: 20px; 
+	padding: 10px 200px;
+    text-align: center;
+	color: black; 
+	background-color: white; 
+	border: 3px solid; 
+	font-weight: bold;
+	border-color: black;
+}
+
+.pa{
+	color: white;
+	background-color: black;
+}

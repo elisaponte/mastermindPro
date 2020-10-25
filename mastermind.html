@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="processing.js"></script>
+		<title>Mastermind</title>
+		<link rel="stylesheet" href="mastermind.css">
+	</head>
+	<body>
+		<h1><center>Mastermind</center></h1>
+		<h2>How to Play:</h2>
+		<p> The goal of the game is to guess the color combination that has randomly been chosen (repeats are allowed). You must select six pegs for each row. Each time a full combination is inputted, if at least one color from the guess is present in the hidden code, small black and/or white pegs will appear to the left of the corresponding row. A small black peg means that a color from the guess is in its correct location. A small white peg means that a color from the guess is present in the hidden code but is not in its correct location. There is no double-counting here. For example, if the leftmost peg of the hidden code is red and the leftmost peg of the guess is red, then only a small black peg (and not a white one) will appear to the left of the row once it is completed. You have ten tries to narrow down the possible colors and their locations to come up with the correct combination.</p>
+		<p>Click on one of the colors at the bottom of the board to input the first color of your guess (the row is filled from left to right). To remove a peg from the row you're currently working on, simply click on the peg you wish to remove, and the next color you choose from the bottom of the board will automatically fill the leftmost hole.</p>
+		<h2>Get Started:</h2>
+		<canvas data-processing-sources="mastermindSketch.pde"></canvas>
+		<br>
+		<button onClick="window.location.reload();">Play Again</button>	
+	</body>
+</html>
